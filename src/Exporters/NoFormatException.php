@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Exporters;
+namespace Jimmy821231\LaravelFFMpeg\Exporters;
 
 use Exception;
 

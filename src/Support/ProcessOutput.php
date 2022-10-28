@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Support;
+namespace Jimmy821231\LaravelFFMpeg\Support;
 
 class ProcessOutput
 {

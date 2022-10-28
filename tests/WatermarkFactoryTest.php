@@ -1,12 +1,12 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use FFMpeg\Format\VideoInterface;
 use FFMpeg\Media\Video;
 use Illuminate\Support\Facades\Storage;
-use ProtoneMedia\LaravelFFMpeg\Filters\WatermarkFactory;
-use ProtoneMedia\LaravelFFMpeg\Filters\WatermarkFilter;
+use Jimmy821231\LaravelFFMpeg\Filters\WatermarkFactory;
+use Jimmy821231\LaravelFFMpeg\Filters\WatermarkFilter;
 
 class WatermarkFactoryTest extends TestCase
 {

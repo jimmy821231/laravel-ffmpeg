@@ -1,9 +1,9 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use FFMpeg\FFProbe\DataMapping\Stream;
-use ProtoneMedia\LaravelFFMpeg\Support\StreamParser;
+use Jimmy821231\LaravelFFMpeg\Support\StreamParser;
 
 class StreamParserTest extends TestCase
 {

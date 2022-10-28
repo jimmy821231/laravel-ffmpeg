@@ -1,13 +1,13 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Exporters;
+namespace Jimmy821231\LaravelFFMpeg\Exporters;
 
 use Closure;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Collection;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\StdListener;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Disk;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\TemporaryDirectories;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\StdListener;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Disk;
+use Jimmy821231\LaravelFFMpeg\Filesystem\TemporaryDirectories;
 
 trait EncryptsHLSSegments
 {
@@ -68,7 +68,7 @@ trait EncryptsHLSSegments
     /**
      * Listener that will rotate the key.
      *
-     * @var \ProtoneMedia\LaravelFFMpeg\FFMpeg\StdListener
+     * @var \Jimmy821231\LaravelFFMpeg\FFMpeg\StdListener
      */
     private $listener;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use FFMpeg\Filters\AdvancedMedia\ComplexFilters;
 use FFMpeg\Filters\Audio\SimpleFilter;
@@ -10,10 +10,10 @@ use FFMpeg\Filters\Video\WatermarkFilter;
 use FFMpeg\Format\AudioInterface;
 use FFMpeg\Media\Audio;
 use Illuminate\Support\Arr;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\LegacyFilterMapping;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\Filters\WatermarkFactory;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\LegacyFilterMapping;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Filters\WatermarkFactory;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
 
 class AddFilter extends TestCase
 {

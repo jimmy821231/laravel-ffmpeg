@@ -1,16 +1,16 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Filters;
+namespace Jimmy821231\LaravelFFMpeg\Filters;
 
 use FFMpeg\Coordinate\Dimension;
 use FFMpeg\FFProbe\DataMapping\Stream;
 use FFMpeg\Filters\Video\VideoFilterInterface;
 use FFMpeg\Format\VideoInterface;
 use FFMpeg\Media\Video;
-use ProtoneMedia\LaravelFFMpeg\Support\StreamParser;
+use Jimmy821231\LaravelFFMpeg\Support\StreamParser;
 
 /**
- * Inspired by: https://github.com/protonemedia/laravel-ffmpeg/issues/335
+ * Inspired by: https://github.com/Jimmy821231/laravel-ffmpeg/issues/335
  */
 class TileFilter implements VideoFilterInterface
 {

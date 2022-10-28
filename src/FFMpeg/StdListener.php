@@ -1,10 +1,10 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\FFMpeg;
+namespace Jimmy821231\LaravelFFMpeg\FFMpeg;
 
 use Alchemy\BinaryDriver\Listeners\ListenerInterface;
 use Evenement\EventEmitter;
-use ProtoneMedia\LaravelFFMpeg\Support\ProcessOutput;
+use Jimmy821231\LaravelFFMpeg\Support\ProcessOutput;
 use Symfony\Component\Process\Process;
 
 class StdListener extends EventEmitter implements ListenerInterface

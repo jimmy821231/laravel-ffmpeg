@@ -1,11 +1,11 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Drivers;
+namespace Jimmy821231\LaravelFFMpeg\Drivers;
 
 use FFMpeg\FFProbe\DataMapping\Stream;
 use Illuminate\Support\Arr;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\MediaCollection;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Filesystem\MediaCollection;
 
 trait InteractsWithMediaStreams
 {

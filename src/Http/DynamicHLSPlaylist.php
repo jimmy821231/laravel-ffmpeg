@@ -1,23 +1,23 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Http;
+namespace Jimmy821231\LaravelFFMpeg\Http;
 
 use Illuminate\Contracts\Support\Responsable;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Response;
 use Illuminate\Support\Str;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Disk;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Disk;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
 
 class DynamicHLSPlaylist implements Responsable
 {
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\Disk
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\Disk
      */
     private $disk;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\Media
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\Media
      */
     private $media;
 

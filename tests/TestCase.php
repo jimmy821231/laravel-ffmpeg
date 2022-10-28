@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use FFMpeg\Format\Video\X264;
 use Illuminate\Filesystem\FilesystemAdapter;
@@ -8,9 +8,9 @@ use Illuminate\Support\Facades\Storage;
 use League\Flysystem\Filesystem;
 use League\Flysystem\InMemory\InMemoryFilesystemAdapter;
 use Orchestra\Testbench\TestCase as BaseTestCase;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\StdListener;
-use ProtoneMedia\LaravelFFMpeg\Support\FFMpeg;
-use ProtoneMedia\LaravelFFMpeg\Support\ServiceProvider;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\StdListener;
+use Jimmy821231\LaravelFFMpeg\Support\FFMpeg;
+use Jimmy821231\LaravelFFMpeg\Support\ServiceProvider;
 
 abstract class TestCase extends BaseTestCase
 {

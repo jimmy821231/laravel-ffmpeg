@@ -1,13 +1,13 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Support;
+namespace Jimmy821231\LaravelFFMpeg\Support;
 
 use FFMpeg\Driver\FFMpegDriver;
 use FFMpeg\FFMpeg;
 use FFMpeg\FFProbe;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
-use ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\TemporaryDirectories;
+use Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg;
+use Jimmy821231\LaravelFFMpeg\Filesystem\TemporaryDirectories;
 
 class ServiceProvider extends BaseServiceProvider
 {

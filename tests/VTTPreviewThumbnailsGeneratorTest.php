@@ -1,9 +1,9 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
-use ProtoneMedia\LaravelFFMpeg\Exporters\VTTPreviewThumbnailsGenerator;
-use ProtoneMedia\LaravelFFMpeg\Filters\TileFactory;
+use Jimmy821231\LaravelFFMpeg\Exporters\VTTPreviewThumbnailsGenerator;
+use Jimmy821231\LaravelFFMpeg\Filters\TileFactory;
 use Spatie\Snapshots\MatchesSnapshots;
 
 class VTTPreviewThumbnailsGeneratorTest extends TestCase

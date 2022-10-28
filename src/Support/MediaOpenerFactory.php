@@ -1,11 +1,11 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Support;
+namespace Jimmy821231\LaravelFFMpeg\Support;
 
 use Illuminate\Support\Traits\ForwardsCalls;
-use ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg;
-use ProtoneMedia\LaravelFFMpeg\Http\DynamicHLSPlaylist;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg;
+use Jimmy821231\LaravelFFMpeg\Http\DynamicHLSPlaylist;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
 
 class MediaOpenerFactory
 {

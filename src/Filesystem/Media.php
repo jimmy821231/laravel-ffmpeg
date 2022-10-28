@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Filesystem;
+namespace Jimmy821231\LaravelFFMpeg\Filesystem;
 
 use Illuminate\Filesystem\FilesystemAdapter;
 
@@ -9,7 +9,7 @@ class Media
     use HasInputOptions;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\Disk
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\Disk
      */
     private $disk;
 

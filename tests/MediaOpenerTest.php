@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use FFMpeg\Exception\RuntimeException;
 use FFMpeg\Media\Video;
@@ -8,13 +8,13 @@ use FFMpeg\Media\Waveform;
 use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Disk;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\MediaCollection;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\MediaOnNetwork;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\TemporaryDirectories;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
-use ProtoneMedia\LaravelFFMpeg\Support\FFMpeg;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Disk;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Filesystem\MediaCollection;
+use Jimmy821231\LaravelFFMpeg\Filesystem\MediaOnNetwork;
+use Jimmy821231\LaravelFFMpeg\Filesystem\TemporaryDirectories;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\Support\FFMpeg;
 
 class MediaOpenerTest extends TestCase
 {
@@ -120,7 +120,7 @@ class MediaOpenerTest extends TestCase
     public function it_can_open_a_remote_url_without_opening()
     {
         $mediaCollection = (new MediaOpener)
-            ->openUrl($url = 'https://raw.githubusercontent.com/protonemedia/laravel-ffmpeg/master/tests/src/guitar.m4a')
+            ->openUrl($url = 'https://raw.githubusercontent.com/Jimmy821231/laravel-ffmpeg/master/tests/src/guitar.m4a')
             ->getDriver()
             ->getMediaCollection();
 

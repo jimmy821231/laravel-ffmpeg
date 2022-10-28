@@ -1,13 +1,13 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Exporters;
+namespace Jimmy821231\LaravelFFMpeg\Exporters;
 
 use Illuminate\Support\Collection;
-use ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\Http\DynamicHLSPlaylist;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
-use ProtoneMedia\LaravelFFMpeg\Support\StreamParser;
+use Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Http\DynamicHLSPlaylist;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\Support\StreamParser;
 
 class HLSPlaylistGenerator implements PlaylistGenerator
 {
@@ -17,7 +17,7 @@ class HLSPlaylistGenerator implements PlaylistGenerator
     /**
      * Return the line from the master playlist that references the given segment playlist.
      *
-     * @param \ProtoneMedia\LaravelFFMpeg\Filesystem\Media $playlistMedia
+     * @param \Jimmy821231\LaravelFFMpeg\Filesystem\Media $playlistMedia
      * @param string $key
      * @return string
      */
@@ -39,7 +39,7 @@ class HLSPlaylistGenerator implements PlaylistGenerator
      * to each playlist.
      *
      * @param array $segmentPlaylists
-     * @param \ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg $driver
+     * @param \Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg $driver
      * @return string
      */
     public function get(array $segmentPlaylists, PHPFFMpeg $driver): string

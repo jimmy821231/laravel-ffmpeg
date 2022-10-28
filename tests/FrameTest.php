@@ -1,10 +1,10 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use Illuminate\Support\Facades\Storage;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
-use ProtoneMedia\LaravelFFMpeg\Support\FFMpeg;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\Support\FFMpeg;
 
 class FrameTest extends TestCase
 {

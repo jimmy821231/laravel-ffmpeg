@@ -1,16 +1,16 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use FFMpeg\Filters\AdvancedMedia\ComplexFilters;
 use FFMpeg\Filters\Video\VideoFilters;
 use Illuminate\Support\Facades\Storage;
-use ProtoneMedia\LaravelFFMpeg\Exporters\HLSPlaylistGenerator;
-use ProtoneMedia\LaravelFFMpeg\Exporters\HLSVideoFilters;
-use ProtoneMedia\LaravelFFMpeg\Exporters\NoFormatException;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\CopyVideoFormat;
-use ProtoneMedia\LaravelFFMpeg\Filters\WatermarkFactory;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\Exporters\HLSPlaylistGenerator;
+use Jimmy821231\LaravelFFMpeg\Exporters\HLSVideoFilters;
+use Jimmy821231\LaravelFFMpeg\Exporters\NoFormatException;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\CopyVideoFormat;
+use Jimmy821231\LaravelFFMpeg\Filters\WatermarkFactory;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
 
 class HlsExportTest extends TestCase
 {

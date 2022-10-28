@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\FFMpeg;
+namespace Jimmy821231\LaravelFFMpeg\FFMpeg;
 
 trait InteractsWithBeforeSavingCallbacks
 {

@@ -1,12 +1,12 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use Illuminate\Support\Facades\Storage;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\ImageFormat;
-use ProtoneMedia\LaravelFFMpeg\Filters\TileFactory;
-use ProtoneMedia\LaravelFFMpeg\Filters\TileFilter;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\ImageFormat;
+use Jimmy821231\LaravelFFMpeg\Filters\TileFactory;
+use Jimmy821231\LaravelFFMpeg\Filters\TileFilter;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
 
 class TileTest extends TestCase
 {

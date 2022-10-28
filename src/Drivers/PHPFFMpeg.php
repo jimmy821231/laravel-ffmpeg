@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Drivers;
+namespace Jimmy821231\LaravelFFMpeg\Drivers;
 
 use Alchemy\BinaryDriver\Listeners\ListenerInterface;
 use Exception;
@@ -16,11 +16,11 @@ use FFMpeg\Media\Video;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Traits\ForwardsCalls;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\AdvancedMedia;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\AudioMedia;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\FFProbe;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\VideoMedia;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\MediaCollection;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\AdvancedMedia;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\AudioMedia;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\FFProbe;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\VideoMedia;
+use Jimmy821231\LaravelFFMpeg\Filesystem\MediaCollection;
 
 /**
  * @mixin \FFMpeg\Media\AbstractMediaType
@@ -37,7 +37,7 @@ class PHPFFMpeg
     private $ffmpeg;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\MediaCollection
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\MediaCollection
      */
     private $mediaCollection;
 

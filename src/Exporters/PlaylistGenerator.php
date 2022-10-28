@@ -1,8 +1,8 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Exporters;
+namespace Jimmy821231\LaravelFFMpeg\Exporters;
 
-use ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg;
+use Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg;
 
 interface PlaylistGenerator
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Filesystem;
+namespace Jimmy821231\LaravelFFMpeg\Filesystem;
 
 use Illuminate\Filesystem\Filesystem;
 

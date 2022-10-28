@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Filters;
+namespace Jimmy821231\LaravelFFMpeg\Filters;
 
 use Closure;
 
@@ -102,7 +102,7 @@ class TileFactory
     /**
      * Returns a new instance of the TileFilter.
      *
-     * @return \ProtoneMedia\LaravelFFMpeg\Filters\TileFilter
+     * @return \Jimmy821231\LaravelFFMpeg\Filters\TileFilter
      */
     public function get(): TileFilter
     {

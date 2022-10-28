@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg;
+namespace Jimmy821231\LaravelFFMpeg;
 
 use FFMpeg\Coordinate\TimeCode;
 use FFMpeg\Media\AbstractMediaType;
@@ -10,36 +10,36 @@ use Illuminate\Http\UploadedFile;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Traits\ForwardsCalls;
-use ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg;
-use ProtoneMedia\LaravelFFMpeg\Exporters\HLSExporter;
-use ProtoneMedia\LaravelFFMpeg\Exporters\MediaExporter;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\ImageFormat;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Disk;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\MediaCollection;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\MediaOnNetwork;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\TemporaryDirectories;
-use ProtoneMedia\LaravelFFMpeg\Filters\TileFactory;
+use Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg;
+use Jimmy821231\LaravelFFMpeg\Exporters\HLSExporter;
+use Jimmy821231\LaravelFFMpeg\Exporters\MediaExporter;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\ImageFormat;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Disk;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Filesystem\MediaCollection;
+use Jimmy821231\LaravelFFMpeg\Filesystem\MediaOnNetwork;
+use Jimmy821231\LaravelFFMpeg\Filesystem\TemporaryDirectories;
+use Jimmy821231\LaravelFFMpeg\Filters\TileFactory;
 
 /**
- * @mixin \ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg
+ * @mixin \Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg
  */
 class MediaOpener
 {
     use ForwardsCalls;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\Disk
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\Disk
      */
     private $disk;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg
+     * @var \Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg
      */
     private $driver;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\MediaCollection
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\MediaCollection
      */
     private $collection;
 

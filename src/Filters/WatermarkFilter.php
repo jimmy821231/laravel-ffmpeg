@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Filters;
+namespace Jimmy821231\LaravelFFMpeg\Filters;
 
 use FFMpeg\Filters\Video\WatermarkFilter as FFMpegWatermarkFilter;
 

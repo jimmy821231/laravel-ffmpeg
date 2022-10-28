@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\FFMpeg;
+namespace Jimmy821231\LaravelFFMpeg\FFMpeg;
 
 use Alchemy\BinaryDriver\Exception\ExecutionFailureException;
 use FFMpeg\Exception\RuntimeException;
@@ -9,7 +9,7 @@ use FFMpeg\FFProbe as FFMpegFFProbe;
 class FFProbe extends FFMpegFFProbe
 {
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\Media|\ProtoneMedia\LaravelFFMpeg\Filesystem\MediaOnNetwork
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\Media|\Jimmy821231\LaravelFFMpeg\Filesystem\MediaOnNetwork
      */
     protected $media;
 

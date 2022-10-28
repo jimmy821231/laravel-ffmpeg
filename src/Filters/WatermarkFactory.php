@@ -1,11 +1,11 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Filters;
+namespace Jimmy821231\LaravelFFMpeg\Filters;
 
 use Illuminate\Support\Traits\ForwardsCalls;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Disk;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\MediaOnNetwork;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Disk;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Filesystem\MediaOnNetwork;
 use Spatie\Image\Image;
 
 /**
@@ -24,12 +24,12 @@ class WatermarkFactory
     const BOTTOM = 'bottom';
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\Disk
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\Disk
      */
     private $disk;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\Media
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\Media
      */
     private $media;
 

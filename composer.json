@@ -1,5 +1,5 @@
 {
-    "name": "pbmedia/laravel-ffmpeg",
+    "name": "jimmy821231/laravel-ffmpeg",
     "description": "FFMpeg for Laravel",
     "keywords": [
         "laravel",
@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ProtoneMedia\\LaravelFFMpeg\\": "src"
+            "Jimmy821231\\LaravelFFMpeg\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ProtoneMedia\\LaravelFFMpeg\\Tests\\": "tests"
+            "Jimmy821231\\LaravelFFMpeg\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -54,10 +54,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ProtoneMedia\\LaravelFFMpeg\\Support\\ServiceProvider"
+                "Jimmy821231\\LaravelFFMpeg\\Support\\ServiceProvider"
             ],
             "aliases": {
-                "FFMpeg": "ProtoneMedia\\LaravelFFMpeg\\Support\\FFMpeg"
+                "FFMpeg": "Jimmy821231\\LaravelFFMpeg\\Support\\FFMpeg"
             }
         }
     }

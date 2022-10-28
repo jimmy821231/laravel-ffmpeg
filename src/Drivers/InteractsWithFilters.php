@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Drivers;
+namespace Jimmy821231\LaravelFFMpeg\Drivers;
 
 use Closure;
 use FFMpeg\Coordinate\Dimension;
@@ -8,10 +8,10 @@ use FFMpeg\Filters\Audio\SimpleFilter;
 use FFMpeg\Filters\FilterInterface;
 use FFMpeg\Filters\Video\ResizeFilter;
 use Illuminate\Support\Collection;
-use ProtoneMedia\LaravelFFMpeg\Exporters\MediaExporter;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\LegacyFilterMapping;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\Filters\WatermarkFactory;
+use Jimmy821231\LaravelFFMpeg\Exporters\MediaExporter;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\LegacyFilterMapping;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Filters\WatermarkFactory;
 
 trait InteractsWithFilters
 {

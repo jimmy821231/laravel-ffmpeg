@@ -1,13 +1,13 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\FFMpeg;
+namespace Jimmy821231\LaravelFFMpeg\FFMpeg;
 
 use FFMpeg\Format\FormatInterface;
 use FFMpeg\Format\Video\DefaultVideo;
 use FFMpeg\Media\AdvancedMedia;
 use Illuminate\Support\Collection;
-use ProtoneMedia\LaravelFFMpeg\Exporters\HLSVideoFilters;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Exporters\HLSVideoFilters;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
 
 /**
  * This class is basically a wrapper around the map() method
@@ -26,7 +26,7 @@ class AdvancedOutputMapping
     private $format;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\Media
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\Media
      */
     private $output;
 

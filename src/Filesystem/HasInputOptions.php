@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Filesystem;
+namespace Jimmy821231\LaravelFFMpeg\Filesystem;
 
 trait HasInputOptions
 {

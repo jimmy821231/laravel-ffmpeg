@@ -1,9 +1,9 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Filesystem;
+namespace Jimmy821231\LaravelFFMpeg\Filesystem;
 
 use Illuminate\Support\Collection;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\InteractsWithHttpHeaders;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\InteractsWithHttpHeaders;
 
 class MediaOnNetwork
 {
@@ -66,7 +66,7 @@ class MediaOnNetwork
      * a temporary directory.
      *
      * @param callable $withCurl
-     * @return \ProtoneMedia\LaravelFFMpeg\Filesystem\Media
+     * @return \Jimmy821231\LaravelFFMpeg\Filesystem\Media
      */
     public function toMedia(callable $withCurl = null): Media
     {

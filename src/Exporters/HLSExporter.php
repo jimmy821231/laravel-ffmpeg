@@ -1,15 +1,15 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Exporters;
+namespace Jimmy821231\LaravelFFMpeg\Exporters;
 
 use Closure;
 use FFMpeg\Format\FormatInterface;
 use FFMpeg\Format\Video\DefaultVideo;
 use FFMpeg\Format\VideoInterface;
 use Illuminate\Support\Collection;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Disk;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Disk;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
 
 class HLSExporter extends MediaExporter
 {
@@ -34,7 +34,7 @@ class HLSExporter extends MediaExporter
     private $pendingFormats;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Exporters\PlaylistGenerator
+     * @var \Jimmy821231\LaravelFFMpeg\Exporters\PlaylistGenerator
      */
     private $playlistGenerator;
 
@@ -73,7 +73,7 @@ class HLSExporter extends MediaExporter
      * Method to set a different playlist generator than
      * the default HLSPlaylistGenerator.
      *
-     * @param \ProtoneMedia\LaravelFFMpeg\Exporters\PlaylistGenerator $playlistGenerator
+     * @param \Jimmy821231\LaravelFFMpeg\Exporters\PlaylistGenerator $playlistGenerator
      * @return self
      */
     public function withPlaylistGenerator(PlaylistGenerator $playlistGenerator): self
@@ -148,7 +148,7 @@ class HLSExporter extends MediaExporter
      *
      * @param \FFMpeg\Format\Video\DefaultVideo $format
      * @param string $segmentsPattern
-     * @param \ProtoneMedia\LaravelFFMpeg\Filesystem\Disk $disk
+     * @param \Jimmy821231\LaravelFFMpeg\Filesystem\Disk $disk
      * @param integer $key
      * @return array
      */
@@ -220,7 +220,7 @@ class HLSExporter extends MediaExporter
      * segment playlist, which we generate manually using the
      * HLSPlaylistGenerator.
      *
-     * @param \ProtoneMedia\LaravelFFMpeg\Filesystem\Media $media
+     * @param \Jimmy821231\LaravelFFMpeg\Filesystem\Media $media
      * @return self
      */
     private function cleanupSegmentPlaylistGuides(Media $media): self
@@ -241,7 +241,7 @@ class HLSExporter extends MediaExporter
      * Returns a media collection of all segment playlists.
      *
      * @param string $path
-     * @throws \ProtoneMedia\LaravelFFMpeg\Exporters\NoFormatException
+     * @throws \Jimmy821231\LaravelFFMpeg\Exporters\NoFormatException
      * @return \Illuminate\Support\Collection
      */
     private function prepareSaving(string $path = null): Collection
@@ -297,7 +297,7 @@ class HLSExporter extends MediaExporter
      * segment playlist guides and temporary HLS encryption keys.
      *
      * @param string $path
-     * @return \ProtoneMedia\LaravelFFMpeg\MediaOpener
+     * @return \Jimmy821231\LaravelFFMpeg\MediaOpener
      */
     public function save(string $mainPlaylistPath = null): MediaOpener
     {

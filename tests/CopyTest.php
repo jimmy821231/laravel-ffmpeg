@@ -1,10 +1,10 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use Illuminate\Support\Facades\Storage;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\CopyFormat;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\CopyFormat;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
 
 class CopyTest extends TestCase
 {

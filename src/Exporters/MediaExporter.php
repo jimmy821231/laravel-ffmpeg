@@ -1,22 +1,22 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Exporters;
+namespace Jimmy821231\LaravelFFMpeg\Exporters;
 
 use FFMpeg\Exception\RuntimeException;
 use FFMpeg\Format\FormatInterface;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Traits\ForwardsCalls;
-use ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\NullFormat;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\StdListener;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Disk;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\Filters\TileFactory;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
-use ProtoneMedia\LaravelFFMpeg\Support\ProcessOutput;
+use Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\NullFormat;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\StdListener;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Disk;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\Filters\TileFactory;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\Support\ProcessOutput;
 
 /**
- * @mixin \ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg
+ * @mixin \Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg
  */
 class MediaExporter
 {
@@ -28,7 +28,7 @@ class MediaExporter
         HasProgressListener;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg
+     * @var \Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg
      */
     protected $driver;
 
@@ -43,7 +43,7 @@ class MediaExporter
     protected $visibility;
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Filesystem\Disk
+     * @var \Jimmy821231\LaravelFFMpeg\Filesystem\Disk
      */
     private $toDisk;
 

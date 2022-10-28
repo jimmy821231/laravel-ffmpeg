@@ -1,20 +1,20 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Exporters;
+namespace Jimmy821231\LaravelFFMpeg\Exporters;
 
 use FFMpeg\Coordinate\Dimension;
 use FFMpeg\Filters\AdvancedMedia\ComplexFilters;
 use FFMpeg\Filters\Video\ResizeFilter;
 use Illuminate\Support\Str;
-use ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg;
-use ProtoneMedia\LaravelFFMpeg\Filters\WatermarkFactory;
+use Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg;
+use Jimmy821231\LaravelFFMpeg\Filters\WatermarkFactory;
 
 class HLSVideoFilters
 {
     const MAPPING_GLUE = "_hls_";
 
     /**
-     * @var \ProtoneMedia\LaravelFFMpeg\Drivers\PHPFFMpeg
+     * @var \Jimmy821231\LaravelFFMpeg\Drivers\PHPFFMpeg
      */
     private $driver;
 

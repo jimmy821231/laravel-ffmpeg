@@ -1,8 +1,8 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
-use ProtoneMedia\LaravelFFMpeg\Support\FFMpeg;
+use Jimmy821231\LaravelFFMpeg\Support\FFMpeg;
 
 class DefaultConfigTest extends TestCase
 {

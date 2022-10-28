@@ -1,10 +1,10 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Exporters;
+namespace Jimmy821231\LaravelFFMpeg\Exporters;
 
 use Closure;
 use Illuminate\Support\Collection;
-use ProtoneMedia\LaravelFFMpeg\Filters\TileFilter;
+use Jimmy821231\LaravelFFMpeg\Filters\TileFilter;
 
 class VTTPreviewThumbnailsGenerator
 {

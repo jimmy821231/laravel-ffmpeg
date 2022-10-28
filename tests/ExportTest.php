@@ -1,6 +1,6 @@
 <?php
 
-namespace ProtoneMedia\LaravelFFMpeg\Tests;
+namespace Jimmy821231\LaravelFFMpeg\Tests;
 
 use FFMpeg\Coordinate\TimeCode;
 use FFMpeg\Exception\RuntimeException ;
@@ -9,11 +9,11 @@ use FFMpeg\Format\Audio\Mp3;
 use FFMpeg\Format\Video\WMV;
 use FFMpeg\Format\Video\X264;
 use Illuminate\Support\Facades\Storage;
-use ProtoneMedia\LaravelFFMpeg\Exporters\EncodingException;
-use ProtoneMedia\LaravelFFMpeg\FFMpeg\ProgressListenerDecorator;
-use ProtoneMedia\LaravelFFMpeg\Filesystem\Media;
-use ProtoneMedia\LaravelFFMpeg\MediaOpener;
-use ProtoneMedia\LaravelFFMpeg\Support\FFMpeg;
+use Jimmy821231\LaravelFFMpeg\Exporters\EncodingException;
+use Jimmy821231\LaravelFFMpeg\FFMpeg\ProgressListenerDecorator;
+use Jimmy821231\LaravelFFMpeg\Filesystem\Media;
+use Jimmy821231\LaravelFFMpeg\MediaOpener;
+use Jimmy821231\LaravelFFMpeg\Support\FFMpeg;
 
 class ExportTest extends TestCase
 {
