@@ -27,9 +27,10 @@ class HLSPlaylistGenerator implements PlaylistGenerator
             $segmentPlaylistMedia->getDirectory() . HLSExporter::generateTemporarySegmentPlaylistFilename($key)
         );
 
+        $fileName = $segmentPlaylistMedia->getFilename();
         $lines = DynamicHLSPlaylist::parseLines($segmentPlaylist)->filter();
 
-        return $lines->get($lines->search($segmentPlaylistMedia->getFilename()) - 1);
+        return $lines->get($lines->search($fileName) - 1);
     }
 
     /**
